@@ -8,6 +8,7 @@ namespace formsandprocessing.Model
 {
     public class data
     {
+
         public int Days { get; set; }
 
         public DateTime Adddate { get; set; } 
