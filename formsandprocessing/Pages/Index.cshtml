@@ -1,0 +1,17 @@
+﻿@page
+@model formsandprocessing.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+        <form>
+            <label asp-for="data.Days"> </label>
+            <input type="number" asp-for="data.Days" />
+            <br />
+            <label asp-for="data.Adddate" > </label>
+            <input type="date" asp-for="data.Adddate"/>
+            <br />
+            <button type="submit" value="submit" >Submit </button>
+        </form>
+</div>
